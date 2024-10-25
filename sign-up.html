@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery - SignUP</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="logo1.png" alt="Pizza Logo">
+        </div>
+        <div class="content">
+            <h4>Login to unlock awesome benefits</h4><br>
+            <div class="features">
+                <div class="feature">
+                    <img src="personalizedOffers.png" alt="Personalized Offers Icon">
+                    <p>Personalized Offers</p>
+                </div>
+                <div class="feature">
+                    <img src="loyaltyRewards.png" alt="Loyalty Rewards Icon">
+                    <p>Loyalty Rewards</p>
+                </div>
+                <div class="feature">
+                    <img src="easyPayments.png" alt="Easy Payments Icon">
+                    <p>Easy Payments</p>
+                </div>
+            </div>
+        <form action="/login" method="POST">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="phone-number" id="phone" name="phone" placeholder="Enter your Phone number" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Enter New Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Confirm the Password</label>
+                <input type="password" id="password" name="password" placeholder="Re-enter password" required>
+            </div>
+            <div class="action-group">
+                <button type="submit">Sign-Up</button>
+            </div>
+            <div class="extra-links">
+               <a href="#">LogIn</a></p>     <p><a href="#">Forgot your password?</a></p>            
+            </div>
+        </form>
+    </div>
+</body>
+</html>

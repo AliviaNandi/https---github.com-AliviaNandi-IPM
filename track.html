@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Order</title>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo2.png" alt="logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Order a Pizza</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="track-order">
+            <div class="header">
+                <h1>Track Your Order</h1>
+                <p>Enter your order number to track the status of your order.</p>
+            </div>
+
+            <div class="track-order-container">
+                <form class="track-order-form">
+                    <label for="order-number">Order Number:</label>
+                    <input type="text" id="order-number" name="order-number" required placeholder="Enter your order number">
+                    <button type="submit">Track Order</button>
+                </form>
+
+                <div class="order-status">
+                    <h2>Order Status</h2>
+                    <p id="status-message">Your order is being prepared.</p>
+                    <p>Estimated delivery time: <strong>30 minutes</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>@ 2024 Pizzamania</p>
+            <ul class="footer-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
